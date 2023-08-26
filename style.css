@@ -58,10 +58,6 @@ a:hover {
   text-decoration-color: rgb(181, 181, 181);
 }
 
-.logo {
-  font-size: 2rem;
-}
-
 .logo:hover {
   cursor: default;
 }
@@ -191,10 +187,14 @@ section {
 
 .section__text__p2 {
   font-size: 1.75rem;
+  margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
 .title {
+  font-family: "Blanka";
+  letter-spacing: 5px;
+  font-weight: 600;
   font-size: 3rem;
   text-align: center;
 }
@@ -202,7 +202,7 @@ section {
 #socials-container {
   display: flex;
   justify-content: center;
-  margin-top: 1rem;
+  margin-top: 2rem;
   gap: 1rem;
 }
 
@@ -265,6 +265,7 @@ section {
 
 #about {
   position: relative;
+  margin-top: 2rem;
 }
 
 .about-containers {
@@ -368,6 +369,12 @@ article .icon {
   border-radius: 2rem;
   width: 90%;
   height: 90%;
+}
+
+.project-img3 {
+  border-radius: 2rem;
+  width: 40vw;
+  height: 80%;
 }
 
 .project-title {
